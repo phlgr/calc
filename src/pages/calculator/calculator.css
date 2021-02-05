@@ -1,0 +1,62 @@
+/*
+#F4E1D1 creamy 
+#827B75 grey
+#A5965F military
+#91A790 lotus
+#B49167 bark
+#95a453 flipgreen
+
+#2D2D2A jet
+#1DD3B0 turqoise
+#E63946 magenta
+#F9EAE1 linen
+#E8C547 babyburp
+*/
+
+.calcBody {
+  margin: 2%;
+  width: 32%;
+  height: 50%;
+  border: 4px solid #2d2d2a;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  color: #f4e1d1;
+  font-size: 2rem;
+  background-color: #2d2d2a;
+}
+
+.calcDisplay {
+  text-align: right;
+  padding: 1rem;
+  grid-column: 1 / 5;
+  font-size: inherit;
+  color: inherit;
+  background: #2d2d2a;
+  overflow-x: auto;
+}
+
+.numBtn {
+  background-color: #1dd3b0;
+  border: 2px solid #16947b;
+  font-size: inherit;
+  color: inherit;
+}
+
+.zeroBtn {
+  grid-column: 1 / 4;
+}
+
+.operatorBtn {
+  background-color: #e8c547;
+  border: 2px solid #af9537;
+  font-size: inherit;
+  color: inherit;
+}
+
+.equalsBtn {
+  grid-column: 1 / 5;
+  background-color: #e63946;
+  border: 2px solid #b12c37;
+  font-size: inherit;
+}
